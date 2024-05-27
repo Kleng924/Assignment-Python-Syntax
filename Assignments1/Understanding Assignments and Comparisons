@@ -1,0 +1,6 @@
+# Question 5 Task 1
+
+a = "b"
+b = a
+temp = a > b
+print (temp)

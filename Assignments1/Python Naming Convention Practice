@@ -1,0 +1,10 @@
+# Question 2 Task 1
+
+Pi_value = 3.14
+print(Pi_value)
+userAge = 25
+print(userAge)
+user_location = "New York"
+print(user_location)
+MAXLIMIT = 1000
+print(MAXLIMIT)

@@ -1,0 +1,18 @@
+# Question 6 Task 1
+
+result = 3 + 4 * 5
+print(result)
+
+result = (3 + 4) * 5
+print(result)
+
+#question 6 Task 2
+
+apple = 5
+mango = 4
+orange = True
+kiwi = False
+banana = 40
+grapes = 50
+result = apple + mango, orange or kiwi, banana > grapes
+print(result)

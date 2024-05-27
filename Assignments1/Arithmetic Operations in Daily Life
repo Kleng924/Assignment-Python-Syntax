@@ -1,0 +1,16 @@
+# Question 4 Task 1
+
+bread_per_loaf = 5
+peanutbutter_per_jar = 4
+jelly_per_jar = 3
+total_cost = bread_per_loaf + peanutbutter_per_jar + jelly_per_jar
+print(total_cost)
+
+# Question 4 Task 2
+
+savings = 10000
+interest = 7
+interest_per_year = savings % interest
+print(interest_per_year)
+
+
