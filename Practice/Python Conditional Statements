@@ -1,0 +1,50 @@
+enemy = "goblin"
+
+if enemy != "dragon":
+    print("chargue forward, brave adventure!")
+
+    player_health = 75
+
+    if player_health <= 100:
+        print("Drink a health potion for full strength!")
+
+magic_stones = 12
+
+if 10 <= magic_stones <= 20:
+    print("You've unlcoked the eleven chest!")
+
+is_daytime = False
+dragon_asleep = True
+
+if not is_daytime and dragon_asleep:
+    print("Sneak into the dragon's lair to retieve the golden chalice!")
+
+moon_phase = "full moon"
+
+if moon_phase == "full moon":
+    print("Beware of werewolves!")
+elif moon_phase == "new moon":
+    print("Witches' night out!")
+
+weather = "rainy"
+
+if weather == "suuny":
+    print("It's a bright and beautiful day!")
+elif weather == "rainy":
+    print("carry an umbrella")
+elif weather == "snowy":
+    print("Time to build a snowman")
+
+is_dragon_present = True
+has_treasure = False
+
+if is_dragon_present and not has_treasure:
+    print("Enter with caution! Dragon ahead, but no treasure in sight.")
+elif not is_dragon_present and has_treasure:
+    print("No dragon around! Quick, grab the treasure.")
+elif is_dragon_present and has_treasure:
+    print("A mighty dragon guards the treasure! Tread carefully.")
+
+else:
+    print("Empty lair. Safe to explore, but no treasure here.")
+    
